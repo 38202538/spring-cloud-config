@@ -2,9 +2,11 @@
   port: 6001
 spring:
   application:
-    name: config-server-1
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri:
+          uri: git@github.com:38202538/spring-cloud-config.git
+          default-label: dev
+          search-paths: config

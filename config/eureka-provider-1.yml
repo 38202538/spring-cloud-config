@@ -1,12 +1,12 @@
 ﻿server:
-  port: 8002
+  port: 8001
 spring:
   application:
     name: eureka-provider                   # 如果有多个同样的服务，这个名字要一样，否则 ribbon根据服务名调用进行负载均衡的时候,不能负载均衡
 eureka:
   instance:
-#    hostname: eureka8002.com
-    instance-id: eureka-provider-2          # eureka 服务端显示注册实例 status列显示的名字
+    hostname: eureka8001.com
+    instance-id: eureka-provider-1          # eureka 服务端显示注册实例 status列显示的名字
     prefer-ip-address: true                 # eureka 服务端显示注册实例 status列，鼠标放上去，左下角显示ip地址
   client:
 #    register-with-eureka: false
