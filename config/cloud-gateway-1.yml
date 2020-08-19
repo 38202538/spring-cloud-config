@@ -1,5 +1,0 @@
-﻿server:
-  port: 5001
-spring:
-  application:
-    name: cloud-gateway-1
