@@ -5,7 +5,7 @@ spring:
     name: eureka-server-1
 eureka:
   instance:
-    hostname: eureka70011.com                # eureka DS Replicas 下面显示的 eureka服务端名称
+    hostname: eureka7001.com                # eureka DS Replicas 下面显示的 eureka服务端名称
     instance-id: eureka-server-1            # 这个在 eureka 服务端好像没用
     prefer-ip-address: true                 # eureka 左下角显示ip地址
   client:
