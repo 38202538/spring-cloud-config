@@ -17,4 +17,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: refresh,health,info       # 不能写 * 号,否则启动会报错
